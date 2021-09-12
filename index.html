@@ -452,14 +452,13 @@
                     <label for="comment" class="input-label">Комментарий</label>
                     <textarea name="comment" id="comment" class="comment-text" placeholder="Введите текст"></textarea>
                 </div>
-                <div class="check-form">
+                <label for="check" class="check-terms">
+                    <input type="checkbox" name="check" id="check" class="check-input">
                     <svg class="check-icon" width="16" height="15">
                         <use href="./images/icons.svg#icon-icon-check"></use>
                     </svg>
-                    <input type="checkbox" name="check" id="check" class="check-input is-hidden" checked>
-                    <label for="check" class="check-terms">Соглашаюсь с рассылкой и принимаю <a href="/" class="terms">Условия
-                            договора</a></label>
-                </div>
+                        <span>Соглашаюсь с рассылкой и принимаю <a href="/" class="terms">Условия договора</a></span>
+                </label>
                 <button class="button-submit" type="submit">Отправить</button>
             </form>
             <button class="modal-close-btn" type="button" data-modal-close>
